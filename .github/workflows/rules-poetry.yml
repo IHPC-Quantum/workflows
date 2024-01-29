@@ -80,4 +80,4 @@ jobs:
           flags: unittests
           name: unit-tests
           fail_ci_if_error: true
-          token: ${{ secrets.codecov_token }}
+          token: ${{ secrets.CODECOV_TOKEN }}

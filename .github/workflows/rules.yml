@@ -65,7 +65,7 @@ jobs:
         if: startsWith(runner.os, 'Linux')
         uses: codecov/codecov-action@v3
         with:
-          token: ${{ secrets.codecov_token }}
+          token: ${{ secrets.CODECOV_TOKEN }}
           file: ./coverage.xml
           flags: unittests
           name: unit-tests
